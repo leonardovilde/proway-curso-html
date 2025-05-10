@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuardaTreco</title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <a href="/Paginas/home.html">
+        <img src="/assets/logo.png" width="20"> GuardaTreco
+      </a>
+      <br>
+    <a href="index.html">Fornecedores</a>   
+
+    <form action="index.html" method="get">
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" id="campo-nome" minlength="3" required maxlength="20"> 
+        </div>
+        <div>
+            <label for="campo-cnpj">CNPJ</label>
+            <input type="text" id="campo-cnpj" minlength="3" required maxlength="20"> 
+        </div>
+        <label for="Estado">Estado:</label>
+        <select id="Estado" name="Estado">
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="Alagoas">Alagoas</option>
+     
+        </select>
+        <div>
+            <label for="campo-cidade">Cidade</label>
+            <input type="text" id="campo-cidade" minlength="3" required maxlength="20"> 
+        </div>
+        <div>
+            <label for="campo-bairro">Bairro</label>
+            <input type="text" id="campo-bairro" minlength="3" required maxlength="20"> 
+        </div>
+        <div>
+            <label for="campo-cep">CEP</label>
+            <input type="text" id="campo-cep" minlength="3" required maxlength="20"> 
+        </div>
+        <div>
+            <label for="campo-numero">Numero</label>
+            <input type="number" id="campo-numero" minlength="3" required maxlength="20"> 
+        </div>
+        <div>
+            <label for="campo-lougradouro">Lougradouro</label>
+            <input type="text" id="campo-lougradouro" minlength="3" required maxlength="20"> 
+        </div>
+        <form action="#">
+            <label for="Complemento">Complemento:</label><br>
+            <textarea id="complemnto" name="comentario" rows="5" cols="40" placeholder="Digite seu comentário aqui..."></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+      <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
